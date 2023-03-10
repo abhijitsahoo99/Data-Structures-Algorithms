@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {  
-  int arr[] = {2,3,7,10,12,14,17,10,20,24,30,12,88,36,16};
+  int arr[] = {-2,3,7,10,12,14,17,10,20,24,30,12,-88,36,16};
   int size = 15;
   int maxi = INT_MIN;
   int mini = INT_MAX;
