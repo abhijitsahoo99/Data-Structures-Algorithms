@@ -1,12 +1,12 @@
 #include<iostream>
 using namespace std;
 
-void searchKey(string str, int size, int i, char key){
+void searchKey(string& str, int& size, int i, char& key){
   if(i>=size){
     return;
   }
   if(str[i]==key){
-    cout<<"Found at index = "<<i<<endl;
+    cout<<key<<" found at index = "<<i<<endl;
   }
   return searchKey(str,size,i+1,key);
 }
