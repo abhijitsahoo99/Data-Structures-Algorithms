@@ -17,6 +17,5 @@ int main(){
   char key = 'h';
   int i = 0;
   searchKey(str,size,i,key);
-  //cout<<"Index value of the searched alphabet is = "<<ans<<endl;
   return 0;
 }
