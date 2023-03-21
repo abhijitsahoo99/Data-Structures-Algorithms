@@ -13,7 +13,7 @@ void subSequence(string str,string output,int i){
 }
 
 int main(){
-  string str = "abc";
+  string str = "abcd";
   int i = 0;
   string output = " ";
   subSequence(str,output,i);
