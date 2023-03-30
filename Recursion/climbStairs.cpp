@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
+
 int climbStairs(int n){
+  //base condition
   if(n==0 || n==1){
     return 1;
   }
@@ -8,8 +10,13 @@ int climbStairs(int n){
 }
 
 int main(){
+  //Steps Allowed
+  //- 1 step at a time or
+  //- 2 step at a time
   int n;
-  cout<<"Enter the number of stairs : ";
+  cout<<"Enter the number of stairs to climb - ";
   cin>>n;
-  cout<<"Number of ways to reach "<<n<<" stairs = "<<climbStairs(n);
+  int ans = climbStairs(n);
+  cout<<"The total number of ways to reach the stairs is - "<<ans;
+  return 0;
 }
